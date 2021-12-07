@@ -125,13 +125,13 @@ body {
 
 ::-webkit-scrollbar-track {
   background-color: #ebebeb00;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 25px;
+  border-radius: 20px;
   background: #6d6d6d;
 }
 
@@ -1209,6 +1209,7 @@ only screen and (min-resolution: 2dppx) and (min-width: 1199px) {
   margin-right: 36px;
   background: #1f1f1f;
   padding: 0 8px;
+  border-radius: 15px;
 }
 
 #share-this a i {
@@ -1226,6 +1227,7 @@ only screen and (min-resolution: 2dppx) and (min-width: 1199px) {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.4s ease;
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1315,6 +1317,7 @@ only screen and (min-resolution: 2dppx) and (min-width: 1199px) {
   text-decoration: none;
   background: #1f1f1f;
   padding: 0 8px;
+  border-radius: 15px;
 }
 
 #banner-share .close-button a i {
@@ -2827,10 +2830,22 @@ footer .wrap-social ul li a:hover {
 
 @-webkit-keyframes shine {
   from {
-    -webkit-mask-position: 150%;
+    -webkit-mask-position: 200%;
   }
 
   to {
     -webkit-mask-position: -50%;
   }
+}
+
+.close-button a {
+  -webkit-mask-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.603) 30%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1.5s infinite;
+}
+
+#share-this a {
+  -webkit-mask-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.603) 30%, rgb(255, 255, 255) 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1.5s infinite;
 }
