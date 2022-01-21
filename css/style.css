@@ -2849,3 +2849,7 @@ footer .wrap-social ul li a:hover {
   -webkit-mask-size: 200%;
   animation: shine 1.5s infinite;
 }
+
+a.navbar-brand {
+  text-decoration: none;
+}
