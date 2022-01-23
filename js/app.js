@@ -41,3 +41,9 @@ function getWeather() {
 }
 
 getWeather();
+
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString([], {
+  hour: "2-digit",
+  minute: "2-digit",
+});
