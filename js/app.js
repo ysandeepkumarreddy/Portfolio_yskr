@@ -42,8 +42,12 @@ function getWeather() {
 
 getWeather();
 
+const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleTimeString([], {
-  hour: "2-digit",
-  minute: "2-digit",
-});
+document.getElementById("datetime").innerHTML =
+  dt.toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+  }) +
+  " " +
+  timezone;
