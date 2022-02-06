@@ -2772,7 +2772,8 @@ button.mfp-close:hover {
 
 #banner-share ul li a:hover {
   box-shadow: 0 0.2em 0.5em -0.3em #000000;
-  transform: translateY(-0.3em);
+  transform: translateY(-0.5em);
+
 }
 
 .h3 {
