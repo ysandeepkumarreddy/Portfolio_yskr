@@ -2193,6 +2193,49 @@ section#works .single-project:hover figure img {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  section#awards {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#awards {
+    padding-top: 100px;
+  }
+}
+
+section#awards .container {
+  position: relative;
+  height: 100%;
+}
+
+section#awards .circle.circle1 {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+}
+
+section#awards .circle.circle2 {
+  position: absolute;
+  top: 550px;
+  left: 275px;
+}
+
+section#awards ul li {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+section#awards ul li span {
+  font-size: 22px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+
 footer {
   padding-bottom: 100px;
 }
@@ -2746,11 +2789,11 @@ button.mfp-close:hover {
 .copy {
   font-size: 15px;
   font-family: "Inconsolata", monospace;
-  color: #6b6b6b;
+  color: #766d6d;
 }
 
 .copy a {
-  color: #6b6b6b;
+  color: #605858;
   text-decoration: none;
 }
 
@@ -2853,4 +2896,26 @@ footer .wrap-social ul li a:hover {
 
 a.navbar-brand {
   text-decoration: none;
+}
+
+.under {
+  text-decoration: none;
+}
+
+.under:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff5252;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.under:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
