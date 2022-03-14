@@ -1,0 +1,69 @@
+/*======================
+    404 page
+=======================*/
+@font-face {
+     font-family: PolySans-Neutral;
+     src: url(/fonts/PolySans-Neutral.woff2) format("woff2"), url(/assets/fonts/PolySans-Neutral.woff) format("woff");
+     font-display: swap;
+     font-style: normal;
+     font-weight: 400
+}
+
+@font-face {
+     font-family: PolySans-Neutral;
+     src: url(/fonts/PolySans-Median.woff2) format("woff2"), url(/fonts/PolySans-Median.woff) format("woff");
+     font-display: swap;
+     font-style: normal;
+     font-weight: 500
+}
+
+.page_404 {
+     padding: 40px 0;
+     background: rgba(0, 0, 0, 0);
+     font-family: "PolySans-Neutral", serif;
+}
+
+.page_404 img {
+     width: 100%;
+}
+
+.four_zero_four_bg {
+     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+     height: 400px;
+     background-position: center;
+}
+
+.four_zero_four_bg h1 {
+     font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+     font-size: 80px;
+}
+
+.link_404 {
+     color: #fff !important;
+     padding: 10px 20px;
+     background: #39ac31;
+     margin: 20px 0;
+     display: inline-block;
+     border-radius: 5px;
+}
+
+.contant_box_404 {
+     margin-top: -50px;
+}
+
+.h2 {
+     font-size: 40px;
+     font-weight: 500;
+     font-family: "PolySans-Neutral";
+     color: rgb(20, 194, 20);
+}
+
+p {
+     font-size: 20px;
+     font-weight: 200;
+     font-family: "PolySans-Neutral";
+     color: rgb(0, 0, 0);
+}
