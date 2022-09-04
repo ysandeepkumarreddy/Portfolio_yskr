@@ -1835,6 +1835,7 @@ section#about .wrap-services {
   min-width: 35%;
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
   z-index: 1;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1869,7 +1870,7 @@ section#about .wrap-services ul li span {
 section#about .wrap-services ul li span:after {
   content: "";
   width: 101%;
-  height: 7px;
+  height: 6px;
   position: absolute;
   bottom: 9px;
   left: 0;
@@ -2922,9 +2923,24 @@ span#da{
 
 }
 
+.hover_img img {
+  border-radius: 25px;
+  opacity: 90%;
+}
+
 .hover_img a { position:relative;
   text-decoration: none;
+  border-radius: 20px;
+  ;
 
 }
-.hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span { display:block; }
+.hover_img a span {
+  position:absolute;
+  display:none;
+  z-index:99;
+
+ }
+.hover_img a:hover span {
+  display:block;
+  border-radius: 20px;
+}
