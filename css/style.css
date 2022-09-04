@@ -2916,3 +2916,15 @@ a.navbar-brand {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+span#da{
+  color: #00bcd4;
+
+}
+
+.hover_img a { position:relative;
+  text-decoration: none;
+
+}
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
