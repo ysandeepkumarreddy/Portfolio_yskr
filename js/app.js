@@ -1,6 +1,6 @@
 function getWeather() {
   let temperature = document.getElementById("temperature");
-  let description = document.getElementById("description");
+  // let description = document.getElementById("description");
   let location = document.getElementById("location");
 
   let api = "https://api.openweathermap.org/data/2.5/weather";
@@ -29,9 +29,10 @@ function getWeather() {
       .then((data) => {
         console.log(data);
         let temp = data.main.temp;
-        temperature.innerHTML = temp + "° C";
-        location.innerHTML = data.name;
-        description.innerHTML = data.weather[0].main;
+        temp = temp.toFixed(1);
+        temperature.innerHTML = temp + "° C " + data.weather[0].main;
+        location.innerHTML = data.name + ", " + data.sys.country;
+        // description.innerHTML = data.weather[0].main;
       });
   }
 
