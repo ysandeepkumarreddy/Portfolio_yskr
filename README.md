@@ -1,4 +1,4 @@
-# Portfolio_yskr
+# Portfolio_yskr   [![Netlify Status](https://api.netlify.com/api/v1/badges/ebcc576a-0862-4959-be4f-797160bba27c/deploy-status)](https://app.netlify.com/sites/sandeep111/deploys)
 Hi There! This is My Personal Portfolio
 
 **This Webpage Was Developed in _2020_ when I saw Awwards Webpage for first time and by seeing I got Crazy about websites UI and Its Parllex Animaton which made cool and unique compared to others**
